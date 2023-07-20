@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const markdown_gen = require("./utils/generateMarkdown")
 
 function validate_input(input){
         if(input == ""){
@@ -37,7 +38,7 @@ const questions = [
         type: "list",
         name: "License",
         message: "Chose a License for your project",
-        choices: ["MIT", "GPL", "Apache 2.0", "LGPL", "BSD 3-Clause", "MPL-2.0", "AGPL", "Eclipse Public License 2.0"]
+        choices: ["MIT", "GPL", "Apache 2.0", "LGPL", "BSD 3-Clause", "MPL-2.0", "AGPL", "Eclipse Public License"]
     },
     {
         type: "input",
@@ -75,7 +76,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
-        writeToFile("generated_README.md",)
+        writeToFile("generated_README.md", markdown_gen(answers))
     })
 }
 
