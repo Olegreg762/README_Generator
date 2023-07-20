@@ -34,9 +34,10 @@ const questions = [
         validate: validate_input
     },
     {
-        type: "input",
+        type: "list",
         name: "License",
-        message: "Name Licenses for your project(if no press enter)",
+        message: "Chose a License for your project",
+        choices: ["MIT", "GPL", "Apache 2.0", "LGPL", "BSD 3-Clause", "MPL-2.0", "AGPL", "Eclipse Public License 2.0"]
     },
     {
         type: "input",
