@@ -16,6 +16,8 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
 function renderLicenseLink(license) {
   const license_links ={
     "MIT":"https://opensource.org/licenses/MIT", 
@@ -26,18 +28,12 @@ function renderLicenseLink(license) {
     "MPL 2.0":"https://opensource.org/licenses/MPL-2.0", 
     "AGPL":"https://www.gnu.org/licenses/agpl-3.0", 
     "Eclipse Public License":"https://opensource.org/licenses/EPL-1.0",
-    };
-    return license_links[license] || "";
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  let license_section = `This Project is licensed under [${license}](${renderLicenseLink(license)})`
-  if(license == ""){
-    license_section = ""
-  }
-  return license_section
+    };  
+    let license_section = `This Project is licensed under [${license}](${license_links[license]})`
+    if(license == ""){
+      license_section = ""
+    }
+    return license_section
 }
 
 // TODO: Create a function to generate markdown for README
@@ -64,7 +60,7 @@ function generateMarkdown(data) {
   The use case for this project is ${data.usage}
 
   ## License
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseLink(data.license)}
 
   ## Contribute
   If you would like the help contribute to this project contact ${data.contribute}
