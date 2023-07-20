@@ -19,48 +19,48 @@ const questions = [
     },
     {
         type: "input",
-        name: "Description",
+        name: "description",
         message: "Description of your project",
         validate: validate_input
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "Installations needed for your project",
     },
     {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "What is the use case of your project",
         validate: validate_input
     },
     {
         type: "list",
-        name: "License",
+        name: "license",
         message: "Chose a License for your project",
         choices: ["MIT", "GPL", "Apache 2.0", "LGPL", "BSD 3-Clause", "MPL-2.0", "AGPL", "Eclipse Public License"]
     },
     {
         type: "input",
-        name: "Contribute",
+        name: "contribute",
         message: "How to Contribute to your project",
         validate: validate_input
     },
     {
         type: "input",
-        name: "Test",
+        name: "test",
         message: "How to Test your project",
         validate: validate_input
     },
     {
         type: "input",
-        name: "Questions",
+        name: "questions",
         message: "How to contact you with Questions of your project",
         validate: validate_input
     },
     {
         type: "input",
-        name: "Github",
+        name: "github",
         message: "Please enter your Github username",
         validate: validate_input
     },
@@ -74,9 +74,9 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(answers => {
-        console.log(answers);
-        writeToFile("generated_README.md", markdown_gen(answers))
+    inquirer.prompt(questions).then(data => {
+        console.log(data);
+        writeToFile("generated_README.md", markdown_gen(data))
     })
 }
 
