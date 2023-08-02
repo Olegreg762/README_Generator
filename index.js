@@ -27,6 +27,7 @@ const questions = [
         type: "input",
         name: "installation",
         message: "Installations needed for your project",
+        validate: validate_input
     },
     {
         type: "input",

@@ -42,6 +42,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Description
+  
   ${data.description}
 
   ## Table of Contents
@@ -54,12 +55,15 @@ function generateMarkdown(data) {
   
   ## Installation
   You will need to install the following to use this project
+
   ${data.installation}
 
   ## Usage
+
   The use case for this project is ${data.usage}
 
   ## License
+
   ${renderLicenseLink(data.license)}
 
   ## Contribute
@@ -67,6 +71,7 @@ function generateMarkdown(data) {
 
   ## Testing
   To test this project do the following,
+
   ${data.test}
 
   ## Questions
