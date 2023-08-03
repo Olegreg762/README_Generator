@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const markdown_gen = require("./utils/generateMarkdown")
-
+// Function that validates that the input wasn't empty
 function validate_input(input){
         if(input == ""){
             return console.log("Cannot be Blank")
