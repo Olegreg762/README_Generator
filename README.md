@@ -5,7 +5,7 @@
   
   Use Javascript to create a professnional README
 
-  ![screenrecord (./utils/screenshot.png)]()
+  [![screenrecord](./utils/screenshot.png)](https://olegreg762.github.io/README_Generator/)
 
   ## Table of Contents
   * [Installation](#installation)
