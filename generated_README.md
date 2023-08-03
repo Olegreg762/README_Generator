@@ -1,5 +1,5 @@
 # README Generator
-  ![](undefined)
+  ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
   
@@ -24,7 +24,7 @@
 
   ## License
 
-  
+  This Project is licensed under [MIT](https://opensource.org/licenses/MIT)
 
   ## Contribute
   If you would like the help contribute to this project contact Via the Github Repo
@@ -35,5 +35,5 @@
   Clone Repo
 
   ## Questions
-  For any questions related to this project contact GitHub
+  For any questions related to this project contact Github
   You can see more of my work on my Github [Olegreg762](https://github.com/Olegreg762)
