@@ -1,9 +1,9 @@
-# README Generator
+# Readme  Generator
   ![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
   
-  Create a README using javascript
+  Create quality readme quickly
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,18 +16,18 @@
   ## Installation
   You will need to install the following to use this project
 
-  `node,js` and `inquirer`
+  `node.je` and `inquirer`
 
   ## Usage
 
-  The use case for this project is To create a quality README quickly
+  The use case for this project is To create a high quality README quickly
 
   ## License
 
   This Project is licensed under [MIT](https://opensource.org/licenses/MIT)
 
   ## Contribute
-  If you would like the help contribute to this project contact Via the Github Repo
+  If you would like the help contribute to this project contact Github Repo
 
   ## Testing
   To test this project do the following,
