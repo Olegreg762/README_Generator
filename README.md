@@ -5,6 +5,8 @@
   
   Use Javascript to create a professnional README
 
+  ![screenrecord](./utils/screenrecord.mov)
+
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
