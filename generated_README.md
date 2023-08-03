@@ -1,9 +1,9 @@
-# Readme generator
+# README Generator
   ![](undefined)
 
   ## Description
   
-  Create a quality readme with javascript
+  Create a README using javascript
 
   ## Table of Contents
   * [Installation](#installation)
@@ -16,24 +16,24 @@
   ## Installation
   You will need to install the following to use this project
 
-  `node.js` and `inquirer`
+  `node,js` and `inquirer`
 
   ## Usage
 
-  The use case for this project is To create a quality readme quickly
+  The use case for this project is To create a quality README quickly
 
   ## License
 
   
 
   ## Contribute
-  If you would like the help contribute to this project contact Use the Github Repo
+  If you would like the help contribute to this project contact Via the Github Repo
 
   ## Testing
   To test this project do the following,
 
-  Clone the repo
+  Clone Repo
 
   ## Questions
-  For any questions related to this project contact you can ask question on the Github Repo
+  For any questions related to this project contact GitHub
   You can see more of my work on my Github [Olegreg762](https://github.com/Olegreg762)
