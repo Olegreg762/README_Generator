@@ -65,15 +65,18 @@ function generateMarkdown(data) {
   ${renderLicenseLink(data.license)}
 
   ## Contribute
+
   If you would like the help contribute to this project contact ${data.contribute}
 
   ## Testing
+
   To test this project do the following,
 
   ${data.test}
 
   ## Questions
-  For any questions related to this project contact ${data.questions}
+  
+  For any questions related to this project contact ${data.questions}<br>
   You can see more of my work on my Github [${data.github}](https://github.com/${data.github})
 `;
 }
